@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 export default function TaskForm({ addTask }) {
   const [text, setText] = useState('');
-  const [dueDate, setDueDate] = useState('');
+  const [dueDate, setDueDate] = useState(''); //empty state because
 
   const handleSubmit = (e) => {
     e.preventDefault();

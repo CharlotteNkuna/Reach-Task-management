@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { loginUser } from '../utils/auth';
+import { loginUser } from '../utils/auth'; //API services or methods
 
 export default function Login() {
   const [form, setForm] = useState({ email: '', password: '' });

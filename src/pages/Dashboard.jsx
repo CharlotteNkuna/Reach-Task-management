@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'; //anythingbfrom react is a hooks
 import Navbar from '../components/Navbar';
 import TaskForm from '../components/TaskForm';
 import TaskList from '../components/TaskList';
