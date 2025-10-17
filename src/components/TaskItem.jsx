@@ -1,8 +1,9 @@
-import { useState } from 'react';
+import { useState } from 'react'; //HOOK
 
 export default function TaskItem({ task, index, deleteTask, editTask, toggleStatus }) {
-  const [isEditing, setIsEditing] = useState(false);
-  const [text, setText] = useState(task.text);
+  const [isEditing, setIsEditing] = useState(false); // BOOLEAN STATE //false because tge task needs manual edit
+  const [text, setText] = useState(task.text); //STRING STATE //new task with new state. makes sure that state makes the task independent
+  
 
   const save = () => {
     editTask(index, text);
